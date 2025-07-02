@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 46px;
+  align-items: center;
+}
+
+.header h3,
+.header ul {
+  margin: 0;
+}
+
+.header ul {
+  list-style: none;         /* removes bullet points */
+  padding: 0px;               /* optional: removes left indent */
+  display: flex;
+  gap: 16px;
+}
+
+ul a {
+  text-decoration: none;    /* removes underline from links */
+  color: white;        /* optional: change link color */
+  font-size: 14px;
+}
+
