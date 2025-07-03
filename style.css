@@ -3,20 +3,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .header {
-
   background: #1F2937;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 46px;
   align-items: center;
-  padding: 0 60px;
+  padding: 10 60px;
+  gap: 540px;
 }
 
 .header h4 {
@@ -47,10 +42,10 @@ ul a {
   background: #1F2937;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 380px;
   align-items: center;
-  gap: 30px;
+  gap: 120px;
 }
 
 .left {
@@ -89,6 +84,42 @@ ul a {
   justify-content: center;
   align-items: center;
 }
+
+.info {
+  height: 380px;
+}
+
+.info-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 30px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3b82f6; /* Tailwind blue-500 */
+  border-radius: 20px;
+  margin-bottom: 8px;
+
+}
+
+.box-item p {
+  text-align: center;
+  margin: 0;
+}
+
+
 
 
 
