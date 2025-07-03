@@ -1,17 +1,30 @@
 body {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
+
   background: #1F2937;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 46px;
   align-items: center;
+  padding: 0 60px;
 }
 
-.header h3,
+.header h4 {
+  font-size: 24px;
+  color: #F9FAF8
+}
+
+.header h4,
 .header ul {
   margin: 0;
 }
@@ -26,6 +39,59 @@ body {
 ul a {
   text-decoration: none;    /* removes underline from links */
   color: white;        /* optional: change link color */
-  font-size: 14px;
+  font-size: 12px;
 }
+
+.intro {
+  padding: 0 60px;
+  background: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 380px;
+  align-items: center;
+  gap: 30px;
+}
+
+.left {
+  max-width: 450px;
+}
+
+.left h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin: 0; /* Optional: to remove default spacing */
+}
+
+.left p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0px;
+}
+
+.left button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 26px;
+  margin-top: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.image-box {
+  background-color: #6B7280;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 
