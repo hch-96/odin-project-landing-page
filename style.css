@@ -119,6 +119,76 @@ ul a {
   margin: 0;
 }
 
+.quote-box {
+  height: 380px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-family: light italic;
+  color: #1F2937;
+  width: 750px;
+}
+
+.quoter {
+  width: 700px;
+  text-align: right;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.sign-up-wrapper {
+  background-color: white;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.sign-up {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: #3b82f6;
+  padding: 50px 100px;
+  border-radius: 16px; /* You can adjust the value */
+}
+
+.sign-up .heading {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.sign-up .text {
+  color: white;
+}
+
+.button {
+  color: white;
+  border-color: white;
+  padding: 5px 24px;
+  border-radius: 8px; /* You can adjust the value */
+  border: 2px solid white; /* changes border color to white */
+  font-weight: bold;
+}
+
+.footer {
+  height: 100px;
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 
