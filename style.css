@@ -171,13 +171,15 @@ ul a {
   color: white;
 }
 
-.button {
+.sign-up button {
   color: white;
   border-color: white;
   padding: 5px 24px;
   border-radius: 8px; /* You can adjust the value */
   border: 2px solid white; /* changes border color to white */
   font-weight: bold;
+  cursor: pointer;
+  background-color: #3882f6;
 }
 
 .footer {
